@@ -1,0 +1,61 @@
+.container {
+  width: 100%;
+  margin: 50px auto;
+  padding: 0 20px;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.form input {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  height: 55px;
+}
+
+.form button {
+  background-color: rgb(160, 136, 136);
+  height: 55px;
+  width: 150px;
+  align-self: flex-end;
+  border: none;
+  text-transform: uppercase;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.table li {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.table li:nth-child(odd) {
+  background-color: rgb(238, 233, 233);
+}
+.table li button {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  color: #ffffff;
+  border: none;
+}
+.firstSpan {
+  margin-right: 10px;
+}
